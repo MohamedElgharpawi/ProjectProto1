@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Through Egypt</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="visit">Visit</string>
+
+    <string name="locations">Locations where he can gaide you through :</string>
+    <string name="car">Has a car</string>
+    <string name="feedback">Feedbacks</string>
+    <string name="feedback_new">Add a Feedback</string>
+
+    <string name="phone">Phone Number</string>
+    <string name="phone_S"> : Swip right to call</string>
+    <string name="identity">Identity</string>
+    <string name="tourist">Tourist</string>
+    <string name="austrian">Austrian</string>
+    <string name="Tour">Tour Guide</string>
+    <string name="t_name_">Your Name</string>
+    <string name="t_email">Your Email</string>
+    <string name="t_pass">Your Password</string>
+    <string name="t_phone">Your Phone Number</string>
+    <string name="t_lang">Languages spoken by your tour guide</string>
+    <string name="t_gender">Gender</string>
+    <string name="next">Next</string>
+    <string name="g_pass">Enter Your New Password</string>
+    <string name="g_pass_old">Enter Your old Password</string>
+    <string name="t_bd">BirthDate</string>
+    <string name="t_pic">Your Picture</string>
+    <string name="t_nationality">Your Nationality</string>
+    <string name="t_male">Male</string>
+    <string name="t_female">Female</string>
+    <string name="submit">Submit</string>
+    <string name="arabic">Arabic</string>
+    <string name="spanish">Spanish</string>
+    <string name="french">French</string>
+    <string name="german">German</string>
+    <string name="italian">Italian</string>
+    <string name="russian">Russian</string>
+    <string name="porto">Portuguese</string>
+    <string name="turky">Turkish</string>
+    <string name="dutch">Dutch</string>
+    <string name="swedish">Swedish</string>
+    <string name="polish">Polish</string>
+    <string name="english">English</string>
+    <string name="cairo">Cairo</string>
+    <string name="alex">Alexandria</string>
+    <string name="kfr">Kafr El Sheikh</string>
+    <string name="aswan">Aswan</string>
+    <string name="asyut">Asyut</string>
+    <string name="beheira">Beheira</string>
+    <string name="beni_Suef">Beni Suef</string>
+    <string name="dakahlia">Dakahlia</string>
+    <string name="damietta">Damietta</string>
+    <string name="faiyum">Faiyum</string>
+    <string name="gharbia">Gharbia</string>
+    <string name="giza">Giza</string>
+    <string name="ismailia">Ismailia</string>
+    <string name="luxor">Luxor</string>
+    <string name="matruh">Matruh</string>
+    <string name="minya">Minya</string>
+    <string name="monufia">Monufia</string>
+    <string name="newValley">New Valley</string>
+    <string name="northSinai">North Sinai</string>
+    <string name="portSaid">Port Said</string>
+    <string name="qalyubia">Qalyubia</string>
+    <string name="qena">Qena</string>
+    <string name="redSea">Red Sea</string>
+    <string name="sharqia">Sharqia</string>
+    <string name="sohag">Sohag</string>
+    <string name="southSinai">South Sinai</string>
+    <string name="suez">Suez</string>
+
+    <!--
+
+
+
+
+
+    -->
+    <string name="experience">Experience</string>
+    <string name="worklocation">Work Location</string>
+    <string name="ssn">Your SSN</string>
+    <string name="languageyouspeek">Tap to select languages spoken by you</string>
+    <string name="edit_languageyouspeek">Tap to Edit languages spoken by you</string>
+    <string name="edit_placesyouwork">Tap to Edit places you work on</string>
+    <string name="placesyouwork">Tap to select places you work on </string>
+    <string name="edit_pass">Edit Password</string>
+    <string name="update_pass">Update Password</string>
+    <string name="edit_phone">Edit Phone</string>
+    <string name="update_phone">Update Phone</string>
+    <string name="havecar">Do You Have a Car</string>
+    <string name="setavalability">switch to set availability: </string>
+
+    <string name="title_activity_tourguid_register">tourguid_register</string>
+    <string name="Egy_Cities">Egypt Cities</string>
+    <string name="age">Age</string>
+    <string name="cv">Bio</string>
+    <string name="forget">Forget My Password</string>
+    <string name="send">Send</string>
+
+</resources>

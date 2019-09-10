@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bkg"
+    >
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_gravity="center"
+    >
+        <TextView
+            android:background="@drawable/test_shape_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_new"
+            android:textColor="@color/pirbel"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:layout_margin="10sp"
+            android:padding="15sp"
+            style="@style/TextAppearance.AppCompat.Display3"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintRight_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="parent"
+            android:id="@+id/feedback_text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/feedback"
+            android:textColorHint="@color/pirbel"
+            android:textSize="30sp"
+            android:layout_margin="10sp"
+            android:id="@+id/feedback_edit"
+            android:padding="20sp"
+            app:layout_constraintTop_toBottomOf="@id/feedback_text"
+            app:layout_constraintRight_toRightOf="@id/feedback_text"
+            />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/feedback_rate"
+        android:stepSize="1"
+        android:numStars="5"
+        android:layout_margin="10sp"
+        app:layout_constraintTop_toBottomOf="@id/feedback_edit"
+        app:layout_constraintRight_toRightOf="@id/feedback_edit"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shabe"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_gravity="right"
+        android:id="@+id/feedback_edit_submit"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="@string/submit"
+        android:layout_marginBottom="5sp"
+        android:padding="15sp"
+        android:gravity="end"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/feedback_rate"
+        app:layout_constraintRight_toRightOf="@id/feedback_edit"
+        />
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

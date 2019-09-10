@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white2">
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/logo"
+        android:layout_margin="10sp"
+        android:layout_gravity="center"
+        android:id="@+id/list_img_tour_nearby"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aa"
+        android:textStyle="bold"
+        android:textColor="@color/pirbel"
+        android:textSize="30sp"
+        android:padding="10sp"
+        android:layout_margin="10sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/list_name_tour_nearby"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aa"
+            android:textStyle="bold"
+            android:textColor="@color/pirbel"
+            android:textSize="30sp"
+            android:padding="10sp"
+            android:layout_margin="10sp"
+            android:layout_gravity="center"
+            android:id="@+id/list_lang_tour_nearby"
+            />
+
+    </LinearLayout>
+</LinearLayout>

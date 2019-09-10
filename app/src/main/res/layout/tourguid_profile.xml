@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refresh">
+<ScrollView
+    android:id="@+id/scroll_geture"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bkg"
+        android:id="@+id/lay_out_swip">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar_profile_tour"
+            android:background="@color/pirbel"
+            >
+
+        </android.support.v7.widget.Toolbar>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <Switch
+                android:id="@+id/guidswitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/setavalability"
+                android:layout_margin="15dp"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textOn="ON"
+                android:textOff="OFF"
+                android:thumb="@drawable/custom_selector1"
+                android:track="@drawable/custom_track1"
+
+
+
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1.5"
+            android:background="@drawable/test_shape_1"
+            >
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/guidprofile"
+                android:layout_width="150sp"
+                android:layout_weight="1"
+                android:layout_height="200sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10sp"
+                android:src="@drawable/egybk"
+                android:padding="10sp"
+                android:layout_margin="10sp"
+                />
+            <TextView
+                android:id="@+id/guidname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:textSize="30sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="5sp"
+                android:text="@string/sign_up"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+
+                />
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/review"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to see your review"
+            android:background="@drawable/button_shabe"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:padding="15sp"
+            android:layout_margin="10sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:background="@drawable/radio_shape">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:textSize="25sp"
+                android:text="@string/ssn"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/g_profile_ssn"
+                android:layout_marginBottom="15sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:textSize="25sp"
+                android:background="@color/white2"
+                android:padding="10sp"
+                android:text="@string/ssn"
+                android:editable="false"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:textSize="25sp"
+                android:text="@string/t_email"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/g_profile_email"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginBottom="15sp"
+                android:textSize="25sp"
+                android:background="@color/white2"
+                android:padding="10sp"
+                android:text="@string/t_email"
+                android:editable="false"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:textSize="25sp"
+                android:text="@string/t_pass"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/g_profile_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:background="@color/white2"
+                android:padding="10sp"
+                android:text="@string/t_pass"
+                android:textColor="@color/pirbel"
+                android:textSize="25sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:textSize="25sp"
+                android:text="@string/t_phone"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/g_profile_phone"
+                android:textColor="@color/pirbel"
+                android:layout_marginBottom="15sp"
+                android:textSize="25sp"
+                android:background="@color/white2"
+                android:padding="10sp"
+                android:text="@string/t_phone"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/g_edit_places"
+                android:textColor="@color/pirbel"
+                android:layout_marginBottom="15sp"
+                android:textSize="25sp"
+                android:background="@color/white2"
+                android:padding="10sp"
+                android:text="@string/edit_placesyouwork"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+
+                />
+
+            <TextView
+                android:id="@+id/g_edit_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginBottom="15sp"
+                android:background="@color/white2"
+                android:padding="10sp"
+                android:text="@string/edit_languageyouspeek"
+                android:textColor="@color/pirbel"
+                android:textSize="25sp" />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>

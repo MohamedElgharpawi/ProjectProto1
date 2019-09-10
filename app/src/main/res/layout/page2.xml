@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bkg"
+    android:layout_weight="1"
+    >
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:fontFamily="monospace"
+        android:textColor="@color/pirbeldark"
+        android:padding="20sp"
+        android:textStyle="bold"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        android:text="@string/identity"/>
+
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    <Button
+        android:background="@drawable/button_shabe"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:padding="20sp"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:text="@string/Tour"
+        android:layout_margin="15sp"
+        android:id="@+id/tou_btn"/>
+
+    <Button
+        android:background="@drawable/button_shabe"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:padding="20sp"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:text="@string/tourist"
+        android:layout_margin="15sp"
+        android:id="@+id/tourist_btn"/>
+
+</LinearLayout>
+
+</LinearLayout>

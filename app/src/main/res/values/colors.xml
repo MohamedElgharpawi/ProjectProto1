@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+
+    <color name="colorPrimaryDark">#00574B</color>
+
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="pirbel">#7C722F17</color>
+
+    <color name="pirbeldark">#D0AD7A68</color>
+
+    <color name="pirbel_light">#977F5D</color>
+    <color name="pirbel_extra_light">#97B8A58C</color>
+    <color name="white2">#B2EEE6E6</color>
+    <color name="black">#0A0000</color>
+    <color name="gray">#817B7B</color>
+    <color name="yellow">#A3FCE10D</color>
+    <color name="refresh1">#2196F3</color>
+    <color name="refresh2">#3F51B5</color>
+    <color name="refresh3">#673AB7</color>
+    <color name="blue">#0C47F8</color>
+
+
+</resources>
+<!--
+
+ <color name="pirbel">#B49C27B0</color>
+
+    <color name="pirbeldark">#9C27B0</color>
+
+    <color name="pirbel_light">#A39C27B0</color>
+    <color name="pirbel_extra_light">#2ACF27F7</color>
+    <color name="white2">#B2EEE6E6</color>
+    <color name="black">#0A0000</color>
+    <color name="gray">#817B7B</color>
+    <color name="yellow">#A3FCE10D</color>
+
+
+ -->

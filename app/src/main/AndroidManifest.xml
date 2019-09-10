@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.project">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:node="replace" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.LOCATION_HARDWARE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Forget_pass_APC"></activity>
+        <activity android:name=".Governmental_APC"></activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/xml" />
+        </provider>
+
+        <activity
+            android:name=".feedback_bage_APC"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".nearby_tour_gaide_page_APC"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".tour_gaide_details_page_APC"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".languages_page_APC"
+            android:launchMode="singleTask"
+            android:noHistory="true"/>
+        <activity
+            android:name=".tour_gaide_locations_APC"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            />
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Places_feedback_APC"></activity>
+        <activity
+            android:name=".Tour_G_Feed_APC"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".details_page_APC"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".tourist_log_in_APC"
+            android:launchMode="singleTask"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".cities_page_APC"
+            android:launchMode="singleTask"></activity>
+        <activity
+            android:name=".tourist_register_APC"
+            android:launchMode="singleTask"
+
+            />
+        <activity
+            android:name=".page2APC"
+            android:noHistory="true" />
+        <activity android:name=".tourguid_profile_APC" android:noHistory="true"></activity>
+        <activity
+            android:name=".tourguid_register"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".tourguid_log_in_APC"
+            android:launchMode="singleTask"
+            android:noHistory="true" />
+        <activity
+            android:name=".phone_edit_APC"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".pass_edit_APC"
+            android:launchMode="singleTask"
+            android:noHistory="true"/>
+    </application>
+
+</manifest>

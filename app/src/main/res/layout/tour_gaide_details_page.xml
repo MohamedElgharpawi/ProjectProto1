@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/details_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="@drawable/bkg"
+    android:windowActivityTransitions="true"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/test_shape_1"
+    android:layout_margin="10sp">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_margin="15sp"
+        android:src="@drawable/egybk"
+        android:id="@+id/tour_img_details"
+        />
+
+
+    <!--
+<ImageView
+        android:transitionName="image_transition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/egybk"
+        android:id="@+id/tour_img_details"
+        android:layout_margin="15sp"
+        />
+-->
+
+    <TextView
+        android:transitionName="name_transition"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="name"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/pirbel"
+        android:textStyle="bold"
+        android:layout_margin="15sp"
+        android:id="@+id/tour_name_details"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+</LinearLayout>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/locations"
+    android:textColor="@color/pirbel"
+    android:textSize="30sp"
+    android:layout_margin="10sp"
+    android:padding="5sp"
+    style="@style/TextAppearance.AppCompat.Display3"
+
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:clickable="true"
+    android:text="Click to view all the locations ..."
+    android:textSize="20sp"
+    android:padding="10sp"
+    android:textColor="@color/black"
+    android:id="@+id/tour_locations_details"
+    />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/test_shape_1"
+    android:layout_marginRight="5sp"
+    android:layout_marginLeft="5sp">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/car"
+        android:textColor="@color/pirbel"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:padding="5sp"
+        android:id="@+id/tour_car_details"
+        style="@style/TextAppearance.AppCompat.Display3"
+        android:clickable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t_gender"
+        android:id="@+id/tour_gender_details"
+        android:textColor="@color/pirbel"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:padding="5sp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:id="@+id/tour_age_details"
+        android:textColor="@color/pirbel"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:padding="5sp"
+
+        />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:textColor="@color/pirbel"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginLeft="10sp"
+        android:padding="5sp"
+        style="@style/TextAppearance.AppCompat.Display3"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_S"
+        android:textColor="@color/pirbel"
+        android:textSize="20sp"
+        android:layout_marginRight="10sp"
+        android:textStyle="bold"
+        android:padding="5sp"
+        style="@style/TextAppearance.AppCompat.Display3"
+        />
+</LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/phone"
+    android:textSize="20sp"
+    android:padding="5sp"
+    android:layout_marginRight="10sp"
+    android:layout_marginLeft="10sp"
+
+    android:id="@+id/tour_phone_details"
+    android:textColor="@color/black"
+    android:outlineAmbientShadowColor="@color/pirbel"
+    android:clickable="true"
+    />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/feedback"
+        android:textColor="@color/pirbel"
+        android:textSize="30sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:padding="5sp"
+        style="@style/TextAppearance.AppCompat.Display3"
+        />
+    <Button
+        android:background="@drawable/test_shape_1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/pirbel"
+        android:padding="10sp"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:text="@string/feedback_new"
+        android:id="@+id/feedback_submit"
+        android:layout_gravity="right"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>
+
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tour_feedback_details_list">
+</ListView>
+
+
+
+</LinearLayout>
